@@ -32,7 +32,7 @@ return (
                 <img height="200" src={value.Profilepic} class="card-img-top" alt="..." />
                 <div class="card-body">
                   <h5 class="card-title">{value.name}</h5>
-                  <p class="card-text">{value.Jobtitle}</p>
+                  <p class="card-text">{value.jobtitle}</p>
                   <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
               </div>
@@ -49,5 +49,4 @@ return (
   </div>
 )
 }
-
 export default ViewEmployee
